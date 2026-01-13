@@ -1,0 +1,22 @@
+[project]
+name = "py3-database"
+version = "0.0.1"
+description = "python3 database"
+authors = [
+    {name = "mathewgeola",email = "mathewgeola@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pymysql (>=1.1.2,<2.0.0)",
+    "pymongo (>=4.16.0,<5.0.0)",
+    "redis (>=7.1.0,<8.0.0)",
+    "furl (>=2.1.4,<3.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
